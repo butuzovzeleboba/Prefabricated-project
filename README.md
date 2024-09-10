@@ -1,72 +1,56 @@
 # Project Overview
-As HR analysts at "Rabota s Zabotoy," we assist businesses in optimizing their personnel management. Companies provide us with data, and we offer strategies to prevent financial losses and employee turnover. Machine learning is a valuable tool in this process, enabling us to respond more quickly and accurately to business queries.
+Overview
+I work at the online store "Streamchik," selling video games worldwide. Using historical data on sales, ratings, and genres, the goal is to identify patterns of game success for planning advertising campaigns. The data provided is up to 2016; let's assume it's December 2016, and we are planning a campaign for 2017. The dataset also includes ESRB ratings, which determine age categories for games.
 
 Objectives
-1. Develop a model to predict employee satisfaction levels based on client data.
-2. Build a model to forecast employee turnover based on client data.
-
-Importance to Business
-- Employee Satisfaction: Predicting satisfaction helps in retaining employees, as job satisfaction directly impacts turnover.
-- Turnover Prediction: Anticipating employee departures is crucial for HR analytics, as unexpected resignations, especially of key personnel, pose risks to the company.
-
-Data Overview
-- Employee Data: Includes performance metrics, engagement scores, tenure, and other relevant factors.
-- Turnover Data: Historical records of employee departures, reasons for leaving, and exit interviews.
+1. Analyze historical data to identify patterns determining game success.
+2. Prepare data for analysis, including handling anomalies and missing values.
+3. Create user profiles for key sales regions.
+4. Test hypotheses about game sales and user preferences.
 
 Methodology
-Task 1: Employee Satisfaction Prediction Model
-- Data Collection: Gather comprehensive data on employee satisfaction from the client.
-- Data Preprocessing: Clean and prepare the data for analysis, handling missing values and outliers.
-- Feature Engineering: Create relevant features that could influence employee satisfaction.
-- Model Development: Build and train machine learning models to predict satisfaction levels.
-- Model Evaluation: Assess model performance using appropriate metrics and validation techniques.
+- Data Analysis: Identify anomalies and missing values in the dataset.
+- Data Preprocessing: Replace columns, fill missing values, remove duplicates, etc.
+- Data Preparation: Prepare relevant data for analysis.
+- User Profiling: Create user profiles for key sales regions.
+- Hypothesis Testing: Test hypotheses about game sales and user preferences.
 
-Task 2: Employee Turnover Prediction Model
-- Data Collection: Gather comprehensive data on employee turnover from the client.
-- Data Preprocessing: Clean and prepare the data for analysis, handling missing values and outliers.
-- Feature Engineering: Create relevant features that could influence the likelihood of turnover.
-- Model Development: Build and train machine learning models to predict the probability of employee turnover.
-- Model Evaluation: Assess model performance using appropriate metrics and validation techniques.
-
-Expected Outcomes
-1. Enhanced Retention Strategies: By understanding factors that influence satisfaction and turnover, businesses can implement targeted retention strategies.
-2. Risk Mitigation: Early prediction of turnover allows for proactive measures to minimize the impact of employee departures.
+Key Findings
+1. The growth in game releases peaked in 1994 and 2008-2009.
+2. The typical lifespan of a platform is 10 years; data from 2013-2016 was used.
+3. Critics' and users' ratings have minimal impact on sales.
+4. Shooter games are the best-sellers, followed by Sports and Platform games.
+5. PS4 is the most popular platform in NA and EU; 3DS is popular in Japan.
+6. NA and EU have similar genre preferences; Japan's tastes differ.
+7. M-rated games lead in Europe and North America; Japan prefers games with a 0 rating.
 
 Conclusion
-These machine learning models will empower "Rabota s Zabotoy" to provide actionable insights to businesses, helping them to manage their workforce more effectively. By predicting employee satisfaction and turnover, companies can take preemptive steps to retain valuable employees and mitigate the risks associated with turnover.
+This analysis will serve as the foundation for improving "Streamchik's" operations, ensuring its competitiveness and alignment with user preferences. By leveraging data-driven insights, we aim to help "Streamchik" achieve sustainable growth and enhance user satisfaction.
 # Обзор проекта
-HR-аналитики компании «Работа с заботой» помогают бизнесу оптимизировать управление персоналом. Компании предоставляют нам данные, и мы предлагаем стратегии для предотвращения финансовых потерь и оттока сотрудников. Машинное обучение является ценным инструментом в этом процессе, позволяя нам быстрее и точнее отвечать на запросы бизнеса.
+Обзор
+Я работаю в интернет-магазине "Стримчик", продающем видеоигры по всему миру. Используя исторические данные о продажах, оценках и жанрах, цель — выявить закономерности успешности игр для планирования рекламных кампаний. Данные предоставлены до 2016 года; предположим, что сейчас декабрь 2016 г., и мы планируем кампанию на 2017-й. В наборе данных также есть информация о рейтингах ESRB, определяющих возрастные категории игр.
 
 Цели
-1. Разработать модель для прогнозирования уровня удовлетворенности сотрудников на основе данных клиента.
-2. Построить модель для предсказания увольнения сотрудников на основе данных клиента.
-
-Важность для бизнеса
-- Удовлетворенность сотрудников: Прогнозирование удовлетворенности помогает в удержании сотрудников, так как удовлетворенность работой напрямую влияет на отток.
-- Прогнозирование оттока: Предсказание увольнений важно для HR-аналитики, так как неожиданные увольнения, особенно ключевых сотрудников, несут риски для компании.
-
-Обзор данных
-- Данные о сотрудниках: Включают метрики производительности, оценки вовлеченности, стаж и другие релевантные факторы.
-- Данные об оттоке: Исторические записи об увольнениях сотрудников, причины ухода и выходные интервью.
+1. Анализировать исторические данные для выявления закономерностей, определяющих успех игры.
+2. Подготовить данные для анализа, включая обработку аномалий и пропущенных значений.
+3. Создать портреты пользователей для ключевых регионов продаж.
+4. Проверить гипотезы о продажах игр и предпочтениях пользователей.
 
 Методология
-Задача 1: Модель прогнозирования удовлетворенности сотрудников
-- Сбор данных: Собирать полные данные об удовлетворенности сотрудников от клиента.
-- Предварительная обработка данных: Очищать и подготавливать данные для анализа, обрабатывая пропуски и выбросы.
-- Инженерные признаки: Создавать релевантные признаки, которые могут влиять на удовлетворенность сотрудников.
-- Разработка модели: Строить и обучать модели машинного обучения для прогнозирования уровня удовлетворенности.
-- Оценка модели: Оценивать производительность модели с использованием подходящих метрик и методов валидации.
+- Анализ данных: Выявить аномалии и пропущенные значения в наборе данных.
+- Предобработка данных: Заменить столбцы, заполнить пропущенные значения, удалить дубликаты и т.д.
+- Подготовка данных: Подготовить актуальные данные для анализа.
+- Профилирование пользователей: Создать портреты пользователей для ключевых регионов продаж.
+- Проверка гипотез: Проверить гипотезы о продажах игр и предпочтениях пользователей.
 
-Задача 2: Модель прогнозирования оттока сотрудников
-- Сбор данных: Собирать полные данные об оттоке сотрудников от клиента.
-- Предварительная обработка данных: Очищать и подготавливать данные для анализа, обрабатывая пропуски и выбросы.
-- Инженерные признаки: Создавать релевантные признаки, которые могут влиять на вероятность оттока.
-- Разработка модели: Строить и обучать модели машинного обучения для прогнозирования вероятности увольнения сотрудников.
-- Оценка модели: Оценивать производительность модели с использованием подходящих метрик и методов валидации.
-
-Ожидаемые результаты
-1. Улучшенные стратегии удержания: Понимая факторы, влияющие на удовлетворенность и отток, компании могут внедрять целевые стратегии удержания.
-2. Снижение рисков: Раннее предсказание оттока позволяет предпринимать превентивные меры для минимизации влияния увольнений сотрудников.
+Основные выводы
+1. Рост выпуска игр приходится на 1994 год, пик — 2008-2009 гг.
+2. Типичный срок жизни платформы — 10 лет; использованы данные с 2013 по 2016 гг.
+3. Оценки критиков и пользователей оказывают минимальное влияние на продажи.
+4. Лучше всего продаются игры жанра Shooter, за ними следуют Sports и Platform.
+5. PS4 — самая популярная платформа в NA и EU; в Японии популярны 3DS.
+6. В NA и EU предпочтения по жанрам практически совпадают; в Японии вкусы отличаются.
+7. В Европе и Северной Америке лидируют игры с рейтингом M; в Японии первое место занимает рейтинг 0.
 
 Заключение
-Эти модели машинного обучения позволят компании «Работа с заботой» предоставлять действенные инсайты бизнесу, помогая им более эффективно управлять своим персоналом. Прогнозируя удовлетворенность сотрудников и отток, компании могут предпринимать превентивные шаги для удержания ценных сотрудников и снижения рисков, связанных с оттоком.
+Этот анализ будет служить основой для улучшения операций "Стримчика", обеспечивая его конкурентоспособность и соответствие предпочтениям пользователей. Используя инсайты, основанные на данных, мы стремимся помочь "Стримчику" достичь устойчивого роста и повышения удовлетворенности пользователей.
